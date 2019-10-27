@@ -1,0 +1,133 @@
+/** {
+    box-sizing: border-box;
+  }*/
+
+  body {
+    background-image: url("../images/hotel-wallpaper.png");
+  }
+ 
+  
+     header {
+         background-color: #4aaaa5;
+         color: #ffffff;
+         font-family: "serif", "Times New Roman", "Times";
+         float: left;
+         margin-left: 175px;
+         padding: 0px 20px;
+         text-align: center;
+     }
+   
+    nav {
+      position: relative;
+    }
+    
+    .links {
+        background-color:  #ffffff;
+        color: #777777;
+         font-family:"arial", "Helvetica","sans-serif";
+         margin-right: 175px;
+         margin-top: 50px;
+         width: 100%;
+         padding: 20px;
+         
+     }
+
+     .links li {
+         position: relative;
+         display: inline-block;
+         left: 50%;
+     }
+
+     #aboutMe {
+        color: #4aaaa5;
+        font-family: "serif", "Times New Roman", "Times";
+        /*padding: 10px; */
+        margin-bottom: 20px;
+        border-bottom: #777777 3px solid
+       
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 32px;
+        color: #777777;
+        font-family:"arial", "Helvetica","sans-serif";
+     }
+
+    img {
+        float: left;
+        padding-right: 15px;
+    }
+
+    .container {
+        width: 960px;
+        float: left;
+        padding: 20px;
+        margin-left: 175px;
+        margin-top: 30px;
+        background-color: #ffffff;
+        /*display: inline;*/
+        /*border: black 3px solid*/
+    }
+
+    .content {
+        min-height: calc(100vh - 70px);
+      }
+      .footer {
+        height: 50px;
+        background-color: #777777;
+        border-top: #4aaaa5 7px solid
+      }
+
+    .portfolioPics {
+        position: relative;
+    }
+
+    .portfolioBanners {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-decoration-style: bold;
+        width: 150px;
+        height: 40px;
+        text-align: center;
+        position: relative;
+    }
+
+    #scratchPic {
+       bottom: -15;
+    }
+
+    #scratchLabel {
+        bottom: -150;
+        left: 20;
+    }
+
+    #placePic1 {
+        margin-left: 225px;
+        bottom: 25px;
+    }
+
+    #placeLabel1 {
+        margin-left: 255px;
+        top: 100px;
+    }
+
+    #placePic {
+        margin-left: 475px;
+        bottom: 80px;
+    }
+
+    #placeLabel {
+        margin-left: 500px;
+        bottom: -40px;
+    }
+
+    #placePic2 {
+        margin-left: 725px;
+        bottom: 135px;
+    }
+    
+    #placeLabel2 {
+        margin-left: 750px;
+        bottom: 10px;
+    }
