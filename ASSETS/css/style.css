@@ -131,3 +131,11 @@
         margin-left: 750px;
         bottom: 10px;
     }
+
+    #message {
+        height: 200px;
+    }
+
+    .forms {
+        width: 90%;
+    }
